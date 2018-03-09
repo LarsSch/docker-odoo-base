@@ -1,4 +1,4 @@
-ROM debian:9
+FROM debian:9
 
 # Enable Odoo user and filestore
 RUN useradd -md /home/odoo -s /bin/false odoo \
